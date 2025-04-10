@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(85, 85, 255);
+}
+
+.main-div {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.div-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+}
+.div-2 input {
+  width: 550px;
+  height: 40px;
+  border: 2px solid rgb(100, 100, 255);
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 0px 10px;
+  margin-top: 30px;
+}
+.div-2 button {
+  width: 100px;
+  height: 45px;
+  background-color: rgb(42, 42, 255);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.reverse {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(42, 42, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.list-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  width: 86%;
+  height: 45px;
+  background-color: rgb(111, 150, 255);
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid rgb(104, 126, 250);
+  /* opacity: 0.5;
+  text-decoration: line-through; */
+}
+.list-2 p {
+  font-size: 19px;
+  color: black;
+}
+.list-2 div {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-2 div button {
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgb(93, 93, 252);
+  border-radius: 5px;
+}
+#complete {
+  width: 80px;
+}
+
+#activate {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgb(93, 93, 252);
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.completed {
+  opacity: 0.4; /* Yuzaki ko'rinishni kamaytirish */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  width: 80%;
+  height: 45px;
+  background-color: rgb(111, 150, 255);
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid rgb(104, 126, 250); /* Matn ustidan chiziq */
+}
